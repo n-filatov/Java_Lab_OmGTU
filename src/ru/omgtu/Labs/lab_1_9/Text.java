@@ -20,7 +20,7 @@ public class Text {
         }
     }
 
-    private static Object[] deleteDuplicates(String[] array) {
+    public  Object[] deleteDuplicates(String[] array) {
         ArrayList uniqueWords = new ArrayList ();
         for(int i=0; i< array.length;i++ )
         {
