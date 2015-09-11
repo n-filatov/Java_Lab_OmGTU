@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 
+    //Из небольшого текста удалить все символы, кроме пробелов, не являющиеся буквами.
+    // Между последовательностями подряд идущих букв оставить хотя бы один пробел.
     public static void main(String[] args) {
+        System.out.println("Введите текст");
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
 
@@ -14,12 +17,14 @@ public class Main {
 
         text = text.replaceAll("[^a-zA-Zа-яА-Я ]", " ");
 
-        String[] newText = text.split("");
+
 
         for(int i = 0; i < text.length(); i++)
         {
-            System.out.println(newText[i]);
+            System.out.print(text.charAt(i)+" ");
         }
+
+
 
     }
 }
