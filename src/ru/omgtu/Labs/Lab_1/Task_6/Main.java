@@ -1,4 +1,4 @@
-package ru.omgtu.Labs.lab1_6;
+package ru.omgtu.Labs.Lab_1.Task_6;
 
 import java.util.Scanner;
 

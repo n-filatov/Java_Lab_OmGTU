@@ -2,7 +2,7 @@ package ru.omgtu.Tests.Lab_1_12_Test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.omgtu.Labs.lab_1_12.Dot;
+import ru.omgtu.Labs.Lab_1.Task_12.Dot;
 
 /**
  * Created by muffassa on 15.09.15.

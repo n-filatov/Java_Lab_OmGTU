@@ -1,4 +1,4 @@
-package ru.omgtu.Labs.lab_1_12;
+package ru.omgtu.Labs.Lab_1.Task_12;
 
 /**
  * Created by muffassa on 15.09.15.

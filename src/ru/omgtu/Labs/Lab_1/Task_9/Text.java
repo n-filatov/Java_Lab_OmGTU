@@ -1,4 +1,4 @@
-package ru.omgtu.Labs.lab_1_9;
+package ru.omgtu.Labs.Lab_1.Task_9;
 
 import java.util.ArrayList;
 

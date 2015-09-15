@@ -1,14 +1,10 @@
-package ru.omgtu.Labs.lab_1_12;
+package ru.omgtu.Labs.Lab_1.Task_12;
 
-import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Created by muffassa on 15.09.15.
- */
+//Найти такую точку заданного на плоскости множества точек, сумма расстояний от которой до остальных минимальна.
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int n = 3;
         Dot dot[]  = new Dot[n];
         double[] sumOfDistances = new double[n];

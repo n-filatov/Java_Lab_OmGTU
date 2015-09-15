@@ -2,8 +2,7 @@ package ru.omgtu.Tests.Lab_1_9_Test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.omg.CORBA.*;
-import ru.omgtu.Labs.lab_1_9.Text;
+import ru.omgtu.Labs.Lab_1.Task_9.Text;
 
 import java.lang.Object;
 
