@@ -23,7 +23,7 @@ public class TextTest {
     }
 
     @Test
-    public void twoDublicates(){
+    public void twoDuplicates(){
         String[] text = new String[]{"Text", "with", "two duplicates", "first", "duplicate", "second", "duplicate"};
         Object[] pattern = new Object[]{"Text", "with", "two duplicates", "first", "duplicate", "second"};
         Text resultText = new Text();

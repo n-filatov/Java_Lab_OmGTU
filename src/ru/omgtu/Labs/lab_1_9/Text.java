@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by muffassa on 11.09.15.
  */
 public class Text {
-    public void howMuchRetry(String text){
+    public Text howMuchRetry(String text){
         String[] words = text.split(" ");
         Object[] uniqueWords = deleteDuplicates(words);
         for(int i = 0; i < uniqueWords.length; i++)
@@ -18,6 +18,7 @@ public class Text {
             }
             System.out.println("Слово "+uniqueWords[i]+" встречается "+ counter+ " раз");
         }
+        return null;
     }
 
     public  Object[] deleteDuplicates(String[] array) {
