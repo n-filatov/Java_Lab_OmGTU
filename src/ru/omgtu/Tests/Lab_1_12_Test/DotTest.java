@@ -18,4 +18,13 @@ public class DotTest {
         Assert.assertEquals(pattern, actual, 1);
 
     }
+
+    @Test
+    public  void distanceToPassiveCoordinateDot()
+    {
+        Dot dot = new Dot(4,5,11);
+        double actual = dot.distanceTo(2,-31,2);
+        double pattern = 37.16;
+        Assert.assertEquals(actual,pattern,2);
+    }
 }
