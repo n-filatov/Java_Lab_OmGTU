@@ -14,18 +14,12 @@ public class MACAddress {
         this.macAddress = macAddress;
     }
 
-    public void isValid()
+    public boolean isValid()
     {
-        Pattern pattern = Pattern.compile("([a-z]+[A-Z]+:){3}+([0-9]{2}+:){2}+[0-9]{2}");
+        Pattern pattern = Pattern.compile("([a-z]+[A-Z]+:){3}+(\\d{2}+:){2}+\\d{2}");
         Matcher matcher = pattern.matcher(macAddress);
+        return matcher.matches();
        
-        if(matcher.matches())
-        {
-            System.out.println("MAC адрес валидный");
-        }
-        else
-        {
-            System.out.println("MAC адрес не валидный");
-        }
+
     }
 }

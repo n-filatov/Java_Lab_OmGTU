@@ -11,9 +11,16 @@ public class Main {
 
         MACAddress validMAC = new MACAddress("bE:dC:cA:56:76:54");
         MACAddress nonValidMac = new MACAddress("01:23:45:67:89:Az");
-        validMAC.isValid();
-        nonValidMac.isValid();
 
+
+        if(validMAC.isValid())
+        {
+            System.out.println("MAC адрес валидный");
+        }
+        else
+        {
+            System.out.println("MAC адрес не валидный");
+        }
 
     }
 }
