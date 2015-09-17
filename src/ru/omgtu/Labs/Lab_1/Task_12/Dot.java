@@ -15,8 +15,8 @@ public class Dot {
         this.z = z;
     }
 
-    public double distanceTo(int x, int y, int z)
+    public double distanceTo(Dot dot)
     {
-        return Math.sqrt(Math.pow(x-this.x,2)+Math.pow(y-this.y,2)+Math.pow(z-this.z,2));
+        return Math.sqrt(Math.pow(dot.x-this.x,2)+Math.pow(dot.y-this.y,2)+Math.pow(dot.z-this.z,2));
     }
 }

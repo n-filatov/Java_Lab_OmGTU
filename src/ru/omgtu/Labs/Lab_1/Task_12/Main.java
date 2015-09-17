@@ -18,7 +18,7 @@ public class Main {
 
         for(int i = 0; i < n; i++) {
             for(int j = 1; j < n-1; j++)
-                sumOfDistances[i] += dot[i].distanceTo(dot[j].x, dot[j].y, dot[j].z);
+                sumOfDistances[i] += dot[i].distanceTo(dot[j]);
         }
 
         int id = minDistancesDot(sumOfDistances, n);

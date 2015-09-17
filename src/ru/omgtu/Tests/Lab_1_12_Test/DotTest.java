@@ -13,7 +13,8 @@ public class DotTest {
     public void distanceIsNull()
     {
         Dot dot = new Dot(4,5,11);
-        double actual = dot.distanceTo(4,5,11);
+        Dot dot2 = new Dot(4,5,11);
+        double actual = dot.distanceTo(dot2);
         double pattern = 0.0;
         Assert.assertEquals(pattern, actual, 1);
 
@@ -23,8 +24,19 @@ public class DotTest {
     public  void distanceToPassiveCoordinateDot()
     {
         Dot dot = new Dot(4,5,11);
-        double actual = dot.distanceTo(2,-31,2);
+        Dot dot2 = new Dot(2,-31,2);
+        double actual = dot.distanceTo(dot2);
         double pattern = 37.16;
+        Assert.assertEquals(actual,pattern,2);
+    }
+
+    @Test
+    public  void allCoordinateIsNull()
+    {
+        Dot dot = new Dot(0,0,0);
+        Dot dot2 = new Dot(2,-31,2);
+        double actual = dot.distanceTo(dot2);
+        double pattern = 31.12;
         Assert.assertEquals(actual,pattern,2);
     }
 }

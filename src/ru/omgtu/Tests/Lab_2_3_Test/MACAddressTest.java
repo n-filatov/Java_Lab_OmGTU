@@ -19,9 +19,18 @@ public class MACAddressTest {
     }
 
     @Test
-    public void macIsNotValid()
+     public void macIsNotValid()
     {
         MACAddress mac = new MACAddress("01:23:45:67:89:Az");
+        boolean expected = true;
+        boolean actual = mac.isValid();
+        Assert.assertEquals(expected,actual);
+    }
+
+    @Test
+    public void macIsNull()
+    {
+        MACAddress mac = new MACAddress("");
         boolean expected = true;
         boolean actual = mac.isValid();
         Assert.assertEquals(expected,actual);

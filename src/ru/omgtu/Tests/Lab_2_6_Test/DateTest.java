@@ -28,4 +28,13 @@ public class DateTest {
         boolean expected = false;
         Assert.assertEquals(actual,expected);
     }
+
+    @Test
+    public void yearIsNull()
+    {
+        int year = 0;
+        boolean actual = isLeap(year);
+        boolean expected = false;
+        Assert.assertEquals(actual,expected);
+    }
 }
