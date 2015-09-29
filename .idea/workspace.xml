@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b8945db-7339-4bdb-a15d-a64433ee495f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_3/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_6/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_6/Operation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_3_Test/Task_6_Test/OperationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_3_Test/Task_3_Test/Polynom_Test.java" />
-      <change type="MOVED" beforePath="C:\workspace\Java_Lab_OmGTU\src\ru\omgtu\Tests\Lab_1_12_Test\DotTest.java" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_1_Test/Lab_1_12_Test/DotTest.java" />
-      <change type="MOVED" beforePath="C:\workspace\Java_Lab_OmGTU\src\ru\omgtu\Tests\Lab_1_9_Test\TextTest.java" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_1_Test/Lab_1_9_Test/TextTest.java" />
-      <change type="MOVED" beforePath="C:\workspace\Java_Lab_OmGTU\src\ru\omgtu\Tests\Lab_2_12_Test\FormulaTest.java" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_2_Test/Lab_2_12_Test/FormulaTest.java" />
-      <change type="MOVED" beforePath="C:\workspace\Java_Lab_OmGTU\src\ru\omgtu\Tests\Lab_2_3_Test\MACAddressTest.java" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_2_Test/Lab_2_3_Test/MACAddressTest.java" />
-      <change type="MOVED" beforePath="C:\workspace\Java_Lab_OmGTU\src\ru\omgtu\Tests\Lab_2_6_Test\DateTest.java" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_2_Test/Lab_2_6_Test/DateTest.java" />
-      <change type="MOVED" beforePath="C:\workspace\Java_Lab_OmGTU\src\ru\omgtu\Tests\Lab_2_9\PasswordTest.java" afterPath="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_2_Test/Lab_2_9/PasswordTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_9/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Vector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java_Lab_OmGTU.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,13 +80,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OperationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_3_Test/Task_6_Test/OperationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8042763">
+            <state vertical-scroll-proportion="0.0">
               <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_9/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63909775">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#230#238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,6 +162,9 @@
         <option value="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_6/Operation.java" />
         <option value="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_6/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_3_Test/Task_6_Test/OperationTest.java" />
+        <option value="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_9/Main.java" />
+        <option value="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Vector.java" />
+        <option value="$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Main.java" />
       </list>
     </option>
   </component>
@@ -251,36 +278,6 @@
               <option name="myItemId" value="Lab_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Task_6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Lab_OmGTU" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_Lab_OmGTU" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="omgtu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -320,7 +317,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.Lab_3.6_Test">
+  <component name="RunManager" selected="Application.Lab_3_12">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -571,6 +568,36 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="Lab_3_9" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.omgtu.Labs.Lab_3.Task_9.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OOP_Laboratory_OmGTU" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lab_3_12" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.omgtu.Labs.Lab_3.Task_12.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OOP_Laboratory_OmGTU" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Lab_3_3" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.omgtu.Labs.Lab_3.Task_3.Main" />
@@ -628,10 +655,12 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Lab_3_3" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Lab3_3_Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Lab_3.6_Test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Lab_3_9" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Lab_3_12" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Lab_3_3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Lab3_3_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Lab_3.6_Test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -642,12 +671,12 @@
       <option name="number" value="Default" />
       <updated>1443505723728</updated>
       <workItem from="1443505721625" duration="126000" />
-      <workItem from="1443536614524" duration="5766000" />
+      <workItem from="1443536614524" duration="7650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5892000" />
+    <option name="totallyTimeSpent" value="7776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -661,7 +690,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -747,11 +776,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Tests/Lab_3_Test/Task_6_Test/OperationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8042763">
+        <state vertical-scroll-proportion="0.0">
           <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_9/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.508772">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#230#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/omgtu/Labs/Lab_3/Task_12/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63909775">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
