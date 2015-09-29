@@ -1,4 +1,4 @@
-package ru.omgtu.Tests.Lab_1_9_Test;
+package ru.omgtu.Tests.Lab_1_Test.Lab_1_9_Test;
 
 import org.junit.Assert;
 import org.junit.Test;

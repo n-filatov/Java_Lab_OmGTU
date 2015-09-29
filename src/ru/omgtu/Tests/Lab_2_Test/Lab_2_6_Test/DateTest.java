@@ -1,8 +1,7 @@
-package ru.omgtu.Tests.Lab_2_6_Test;
+package ru.omgtu.Tests.Lab_2_Test.Lab_2_6_Test;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.omgtu.Labs.Lab_2.Task_6.Date;
 
 import static ru.omgtu.Labs.Lab_2.Task_6.Date.isLeap;
 

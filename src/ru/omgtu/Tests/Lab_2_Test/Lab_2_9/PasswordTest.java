@@ -1,8 +1,7 @@
-package ru.omgtu.Tests.Lab_2_9;
+package ru.omgtu.Tests.Lab_2_Test.Lab_2_9;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.omgtu.Labs.Lab_2.Task_3.MACAddress;
 import ru.omgtu.Labs.Lab_2.Task_9.Password;
 
 /**
