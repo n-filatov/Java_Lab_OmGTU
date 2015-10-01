@@ -48,15 +48,13 @@ public class Polynom_Test {
         y.put(2,-31);
 
         result = Polynom.sum(x,y);
-        int actual[] = new int[result.size()];
-        int pattern[] = {-15,-29,-34};
-        for (int i = 0; i <result.size() ; i++) {
-            actual[i] = result.get(i);
+        Integer pattern[] = {-15,-29,-34};
+
+        for (int i = 0; i < pattern.length; i++) {
+            Assert.assertEquals(pattern[i], result.get(i));
         }
 
-        for (int i = 0; i < actual.length; i++) {
-            Assert.assertEquals(pattern[i], actual[i]);
-        }
+
 
     }
 }

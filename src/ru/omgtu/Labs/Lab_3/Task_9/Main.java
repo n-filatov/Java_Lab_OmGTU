@@ -10,16 +10,18 @@ public class Main {
     {
         Stack stack = new Stack();
 
-        int numbers[] = new int[]{1,2,3,4,5,6};
+        String[] string = new String[]{"s","t","r","i","n","g"};
 
-        for(int i = 0; i < numbers.length; i++)
-        {
-            stack.push(numbers[i]);
-        }
+        String[] reversString = new String[string.length];
 
-        for (int i = 0; i < numbers.length; i++)
-        {
-            System.out.println(stack.pop());
+        reversString = Simbol.revers(string);
+
+
+        if(reversString.length!= 0) {
+            for (int i = 0; i < reversString.length; i++) {
+                System.out.println(reversString[i]);
+            }
         }
+        else System.out.println("String is empty");
     }
 }

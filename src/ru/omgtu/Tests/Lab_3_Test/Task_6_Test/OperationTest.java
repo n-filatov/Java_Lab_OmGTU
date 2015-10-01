@@ -27,7 +27,7 @@ public class OperationTest {
     }
 
     @Test
-    public void sum()
+     public void sum()
     {
         Stack x = new Stack();
 
@@ -37,6 +37,21 @@ public class OperationTest {
 
         int result = Operation.sum(x);
         int pattern = 9;
+
+        Assert.assertEquals(pattern,result);
+    }
+
+    @Test
+    public void sumElementsIsPassive()
+    {
+        Stack x = new Stack();
+
+        x.push(-2);
+        x.push(-3);
+        x.push(-4);
+
+        int result = Operation.sum(x);
+        int pattern = -9;
 
         Assert.assertEquals(pattern,result);
     }
@@ -52,6 +67,51 @@ public class OperationTest {
 
         int result = Operation.pow(x);
         int pattern = 24;
+
+        Assert.assertEquals(pattern,result);
+    }
+
+    @Test
+    public void powAllNullElements()
+    {
+        Stack x = new Stack();
+
+        x.push(0);
+        x.push(0);
+        x.push(0);
+
+        int result = Operation.pow(x);
+        int pattern = 0;
+
+        Assert.assertEquals(pattern,result);
+    }
+
+    @Test
+    public void powOneNullElements()
+    {
+        Stack x = new Stack();
+
+        x.push(4);
+        x.push(0);
+        x.push(2);
+
+        int result = Operation.pow(x);
+        int pattern = 0;
+
+        Assert.assertEquals(pattern,result);
+    }
+
+    @Test
+    public void powWithPassiveElements()
+    {
+        Stack x = new Stack();
+
+        x.push(4);
+        x.push(-2);
+        x.push(2);
+
+        int result = Operation.pow(x);
+        int pattern = -16;
 
         Assert.assertEquals(pattern,result);
     }

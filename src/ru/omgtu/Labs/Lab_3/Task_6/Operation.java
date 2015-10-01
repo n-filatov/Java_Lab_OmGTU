@@ -6,6 +6,7 @@ import java.util.Stack;
  * Created by Muffassa on 29.09.2015.
  */
 public class Operation {
+
     public static int sum(Stack<Integer> stack)
     {
         int result = 0;
